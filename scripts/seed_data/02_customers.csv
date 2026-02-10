@@ -1,0 +1,16 @@
+customer_code,customer_name,customer_type,tax_code,address,phone,email,channel,online_platform,account_code,credit_limit,credit_term_days,payment_method,contact_person,note
+KH001,Công ty TNHH Thương mại Điện tử ShopViệt,BUSINESS,0101234567,"Hà Nội, Việt Nam",0912345678,shopviet@email.com,ONLINE,SHOPEE,1311,500000000,30,BANK,Nguyễn Văn A,Sàn TMĐT lớn
+KH002,Cửa hàng Thế giới Di động - CNQ1,BUSINESS,0102345678,"Quận 1, TP.HCM",0987654321,wgdq1@email.com,ONSITE,POS,1311,200000000,15,CASH,Trần Thị B,Chuỗi cửa hàng
+KH003,Công ty CP Công nghệ Bảo Việt Tech,BUSINESS,0103456789,"Hà Nội, Việt Nam",0933445566,baoviet@email.com,ONLINE,WEBSITE,1311,300000000,45,BANK,Lê Văn C,Dự án phần mềm
+KH004,Anh Nguyễn Văn Dùng,CUSTOMER,00123456789,"TP. Hải Phòng",0944556677,nguyenvandung@email.com,ONLINE,LIVESTREAM,1311,50000000,0,COD,Nguyễn Văn Dùng,Khách hàng livestream
+KH005,Công ty TNHH TM DV Bán lẻ Siêu thị,BUSINESS,0104567890,"Quận 3, TP.HCM",0911223344,sieuthi@email.com,ONSITE,POS,1311,1000000000,15,CASH,Ngô Thị E,Siêu thị mini
+KH006,Công ty CP Giải pháp Phần mềm Số,BUSINESS,0105678901,"Đà Nẵng",0922334455,softech@email.com,ONLINE,WEBSITE,1311,150000000,60,BANK,Phạm Văn F,Dịch vụ CNTT
+KH007,Anh Trần Minh Hoàng,CUSTOMER,00123456790,"Bình Dương",0933445566,hoangtm@email.com,ONSITE,POS,1311,20000000,0,CASH,Trần Minh Hoàng,Khách hàng cá nhân
+KH008,Công ty TNHH TM XNK Hoàng Gia,BUSINESS,0106789012,"Hà Nội, Việt Nam",0944556677,hoanggia@email.com,ONLINE,SHOPEE,1311,800000000,30,BANK,Nguyễn Thị G,Xuất nhập khẩu
+KH009,Chị Lê Thị Hương Giang,CUSTOMER,00123456791,"TP. Cần Thơ",0955667788,huonggiang@email.com,ONLINE,LIVESTREAM,1311,30000000,0,COD,Lê Thị Hương Giang,Khách hàng COD
+KH010,Trung tâm Thương mại Citimart,BUSINESS,0107890123,"Quận 5, TP.HCM",0966778899,citimart@email.com,ONSITE,POS,1311,500000000,15,BANK,Đặng Văn H,Trung tâm TM
+KH011,Công ty CP Đầu tư Phát triển Công nghệ,BUSINESS,0108901234,"TP. Hà Nội",0977889900,techdev@email.com,ONLINE,WEBSITE,1311,250000000,30,BANK,Vũ Thị I,Startup công nghệ
+KH012,Anh Phạm Quốc Hùng,CUSTOMER,00123456792,"TP. Biên Hòa",0988001122,phamhung@email.com,ONSITE,POS,1311,10000000,0,CASH,Phạm Quốc Hùng,Khách hàng vãng lai
+KH013,Shopee Mall - Đối tác tiêu biểu,BUSINESS,0109012345,"TP. Hồ Chí Minh",0911223344,partnership@shopee.vn,ONLINE,SHOPEE,1311,2000000000,45,BANK,Shopee Partner,Kênh bán chính
+KH014,Lazada Vietnam - Đối tác,BUSINESS,0110123456,"TP. Hồ Chí Minh",0922334455,lazada@vn.lazada.com,ONLINE,LAZADA,1311,1500000000,60,BANK,Lazada Partner,Kênh bán TMĐT
+KH015,Tiki Vietnam - Đối tác,BUSINESS,0111234567,"TP. Hồ Chí Minh",0933445566,tiki@vn.tikicdn.com,ONLINE,TIKI,1311,1000000000,30,BANK,Tiki Partner,Sách và điện tử

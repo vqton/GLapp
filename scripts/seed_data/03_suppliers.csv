@@ -1,0 +1,11 @@
+supplier_code,supplier_name,supplier_type,tax_code,address,phone,email,account_code,credit_limit,credit_term_days,payment_method,contact_person,note
+NCC001,Công ty CP Điện tử Samsung Việt Nam,BUSINESS,0108578964,"Thái Nguyên",18001555,samsung@vn.samsung.com,3311,5000000000,30,BANK,Nguyễn Văn Điện,Nhà phân phối chính hãng
+NCC002,Shopee Logistics - Phí giao dịch,BUSINESS,0103456345,"TP. Hồ Chí Minh",0281234567,logistics@shopee.vn,3311,100000000,7,BANK,Shopee Ops,Phí vận chuyển TMĐT
+NCC003,Giao hàng Tiết kiệm - Phí COD,BUSINESS,0104567456,"TP. Hồ Chí Minh",0282345678,thietke@ghtk.vn,3311,50000000,7,BANK,GHTK Ops,Phí thu hộ COD
+NCC004,Viettel Post - Phí dịch vụ,BUSINESS,0106789678,"Hà Nội",0245678901,viettelpost@vtp.vn,3311,100000000,15,BANK,Viettel Ops,Bưu chính
+NCC005,Facebook Ads - Phí quảng cáo,BUSINESS,0107890789,"TP. Hồ Chí Minh",0284567890,ads-vietnam@meta.com,3311,500000000,7,BANK,Meta Business,Quảng cáo TMĐT
+NCC006,Google Ads - Phí quảng cáo,BUSINESS,0104567890,"TP. Hồ Chí Minh",0285678901,ads-vietnam@google.com,3311,300000000,7,BANK,Google Ads,Quảng cáo online
+NCC007,Công ty TNHH MTV Dầu ăn Tường An,FARMER,0108901890,"TP. Cần Thơ",0701234567,tuongan@email.com,3311,150000000,20,CASH,Phạm Thị R,Nhà cung cấp thực phẩm
+NCC008,Công ty CP May Xuất khẩu Thanh Lễ,MANUFACTURER,0109012901,"Nam Định",0228123456,thanhle@email.com,3311,400000000,30,BANK,Vũ Văn S,Nhà may gia công
+NCC009,Nhà cung cấp điện - EVN,BUSINESS,0100123456,"Hà Nội",0241234567,evn@evn.vn,3311,100000000,15,BANK,EVN Business,Điện sinh hoạt
+NCC010,Nhà cung cấp nước - SAWACO,BUSINESS,0101234567,"TP. HCM",0288123456,sawaco@sawaco.vn,3311,20000000,15,CASH,Sawaco Ops,Nước sạch

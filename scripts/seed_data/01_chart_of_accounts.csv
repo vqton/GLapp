@@ -1,0 +1,136 @@
+account_code,account_name,account_type,parent_code,is_detail,balance_direction,detail_objects,description
+111,Tiền mặt,,True,DEBIT,"['KH','NCC']",Tiền mặt tại quỹ
+1111,Tiền Việt Nam,111,True,DEBIT,,Tiền mặt VND
+1112,Ngoại tệ,111,True,DEBIT,,Tiền mặt ngoại tệ
+112,Tiền gửi Ngân hàng,,True,DEBIT,"['KH','NCC']",Tiền gửi các ngân hàng
+1121,Tiền gửi VND,112,True,DEBIT,,Tài khoản VND
+1122,Tiền gửi USD,112,True,DEBIT,,Tài khoản USD
+121,Đầu tư chứng khoán ngắn hạn,,True,DEBIT,,Cổ phiếu, trái phiếu ngắn hạn
+131,Phải thu khách hàng,,True,DEBIT,"['KH','HD']",Phải thu từ khách hàng
+1311,Phải thu bán hàng,131,True,DEBIT,,Phải thu từ bán hàng
+1312,Phải thu cung cấp dịch vụ,131,True,DEBIT,,Phải thu từ dịch vụ
+133,Thuế GTGT được khấu trừ,,True,DEBIT,,Thuế GTGT được khấu trừ
+1331,Thuế GTGT đầu vào,133,True,DEBIT,,Thuế GTGT đầu vào
+138,Phải thu khác,,True,DEBIT,,Các khoản phải thu khác
+1381,Tài sản thiếu chờ xử lý,138,True,DEBIT,,Thiếu hụt phát hiện
+1388,Phải thu khác,138,True,DEBIT,,Phải thu khác theo TT99
+151,Hàng mua đang đi đường,,True,DEBIT,,Hàng mua chưa về kho
+152,Nguyên liệu, vật liệu,,True,DEBIT,"['HH']",Nguyên vật liệu
+153,Công cụ, dụng cụ,,True,DEBIT,,Công cụ dụng cụ
+156,Hàng hóa,,True,DEBIT,"['HH']",Hàng hóa tồn kho
+1561,Hàng hóa kho,156,True,DEBIT,,Hàng trong kho
+1562,Hàng hóa bất động sản,156,True,DEBIT,,BĐS chờ bán
+1567,Hàng hóa cho thuê,156,True,DEBIT,,Cho thuê TSCĐ thuộc hàng hóa
+157,Hàng gửi đi bán,156,True,DEBIT,,Hàng gửi đại lý
+158,Hàng hóa bị chặn để kiểm kê,156,True,DEBIT,,Đang kiểm kê
+159,Dự phòng giảm giá hàng tồn kho,,True,CREDIT,,Dự phòng giảm giá
+211,Tài sản cố định hữu hình,,True,DEBIT,,TSCĐ hữu hình
+2111,TSCĐ hữu hình - Nguyên giá,211,True,DEBIT,,Nguyên giá
+2112,Khấu hao TSCĐ hữu hình,211,True,CREDIT,,Khấu hao lũy kế
+213,Tài sản cố định vô hình,,True,DEBIT,,TSCĐ vô hình
+214,Hao mòn TSCĐ,,True,CREDIT,,Khấu hao TSCĐ các loại
+229,Dự phòng phải thu khó đòi,,True,CREDIT,"['KH']",Dự phòng nợ phải thu (TT48/2019)
+2291,Dự phòng cụ thể,229,True,CREDIT,,Dự phòng theo quá hạn
+2292,Dự phòng chung,229,True,CREDIT,,Dự phòng 1% nợ ngắn hạn
+2293,Dự phòng giảm giá chứng khoán,229,True,CREDIT,,Chứng khoán đầu tư
+241,Nhận góp vốn, đầu tư dài hạn,,True,DEBIT,,Vốn góp dài hạn
+242,Phải thu dài hạn nội bộ,,True,DEBIT,,Cho vay dài hạn
+243,Phải thu về cổ phần đầu tư,,True,DEBIT,,Cổ phần đầu tư
+251,Góp vốn liên doanh,,True,DEBIT,,Vốn góp liên doanh
+281,Tạm ứng,,True,DEBIT,,Tạm ứng cho nhân viên
+311,Vay và nợ thuê tài chính,,True,CREDIT,,Vay ngắn hạn
+3111,Vay ngắn hạn,311,True,CREDIT,,Vay ngân hàng
+331,Phải trả người bán,,True,CREDIT,"['NCC','HD']",Phải trả NCC
+3311,Phải trả mua hàng,331,True,CREDIT,,Mua hàng hóa
+3312,Phải trả dịch vụ,331,True,CREDIT,,Cung cấp dịch vụ
+3313,Phải trả nhập khẩu,331,True,CREDIT,,Nhập khẩu
+332,Phải trả công nhân viên,,True,CREDIT,,Lương phải trả
+333,Thuế và các khoản phải nộp Nhà nước,,True,CREDIT,,Thuế và phí phải nộp
+3331,Thuế GTGT phải nộp,333,True,CREDIT,,Thuế GTGT đầu ra
+3332,Thuế tiêu thụ đặc biệt,333,True,CREDIT,,Thuế TTĐB
+3333,Thuế xuất nhập khẩu,333,True,CREDIT,,Thuế NK, XK
+3334,Thuế TNDN,333,True,CREDIT,,Thuế thu nhập doanh nghiệp
+3335,Thuế TNDN hoãn lại,333,True,CREDIT,,Thuế hoãn lại
+3336,Thuế TNCN,333,True,CREDIT,,Khấu trừ thuế TNCN
+3339,Thuế và khoản khác,333,True,CREDIT,,Phí, lệ phí khác
+334,Phải trả người lao động,,True,CREDIT,"['NV']",Lương và phúc lợi
+3341,Lương phải trả,334,True,CREDIT,,Lương tháng
+3343,Cổ phần ESOP,334,True,CREDIT,,Cổ phần cho nhân viên
+335,Chi phí phải trả,,True,CREDIT,,Chi phí trích trước
+336,Phải trả nội bộ,,True,CREDIT,,Phải trả nội bộ
+337,Thanh toán theo tiến độ hợp đồng xây dựng,,True,CREDIT,,XDCB theo tiến độ
+338,Phải trả, phải nộp khác,,True,CREDIT,,Các khoản khác
+3381,Tài sản thừa chờ xử lý,338,True,CREDIT,,Thừa phát hiện
+3382,Bảo hiểm xã hội,338,True,CREDIT,,BHXH trích
+3383,Bảo hiểm y tế,338,True,CREDIT,,BHYT trích
+3384,Kinh phí công đoàn,338,True,CREDIT,,KPCĐ trích
+3388,Phải trả khác,338,True,CREDIT,,Phải trả khác
+341,Vốn góp của chủ sở hữu,,True,CREDIT,,Vốn đầu tư
+343,Thặng dư vốn cổ phần,,True,CREDIT,,Chênh lệch phát hành
+344,Nhận vốn góp,,True,CREDIT,,Vốn góp của cổ đông
+346,Lợi nhuận sau thuế chưa phân phối,,True,CREDIT,,LNST chưa phân phối
+347,Lợi nhuận chưa phân phối,,True,CREDIT,,Lợi nhuận từ các năm
+348,Nguồn vốn đầu tư xây dựng cơ bản,,True,CREDIT,,Nguồn vốn XDCB
+411,Vốn đầu tư của chủ sở hữu,,True,CREDIT,,Vốn chủ sở hữu
+4111,Vốn góp của chủ sở hữu,411,True,CREDIT,,Vốn góp
+4118,Vốn khác của chủ sở hữu,411,True,CREDIT,,Vốn khác
+421,Lợi nhuận sau thuế chưa phân phối,,True,CREDIT,,LNST
+511,Doanh thu bán hàng và cung cấp dịch vụ,,True,CREDIT,,Doanh thu
+5111,Doanh thu bán hàng hóa,511,True,CREDIT,,Bán hàng hóa
+5112,Doanh thu cung cấp dịch vụ,511,True,CREDIT,,Cung cấp dịch vụ
+5113,Doanh thu hợp đồng xây dựng,511,True,CREDIT,,XDCB theo tiến độ
+5114,Doanh thu TMĐT,511,True,CREDIT,,Thương mại điện tử
+5117,Giám giá hàng bán,511,True,CREDIT,,Giảm giá hàng bán
+5118,Chiết khấu thương mại,511,True,CREDIT,,Chiết khấu TM
+515,Doanh thu hoạt động tài chính,,True,CREDIT,,Tài chính
+5151,Lãi tiền gửi,515,True,CREDIT,,Lãi tiền gửi
+5152,Lãi chênh lệch tỷ giá,515,True,CREDIT,,Chênh lệch tỷ giá (Đ31)
+5153,Lãi bán chứng khoán,515,True,CREDIT,,Chứng khoán
+521,Chiết khấu thương mại,,True,DEBIT,,Chiết khấu bán hàng
+5211,Chiết khấu hàng bán,521,True,DEBIT,,Chiết khấu TM
+531,Hàng bán bị trả lại,,True,DEBIT,,Hàng bán bị trả
+5311,Hàng bán bị trả lại,531,True,DEBIT,,Trả hàng
+532,Giám giá hàng bán,,True,DEBIT,,Giảm giá
+5321,Giám giá hàng bán,532,True,DEBIT,,Giảm giá
+611,Mua hàng,,True,DEBIT,,Giá vốn mua hàng
+6111,Mua hàng hóa,611,True,DEBIT,,Giá vốn mua hàng
+6112,Mua dịch vụ,611,True,DEBIT,,Giá vốn dịch vụ
+621,Chi phí nguyên vật liệu trực tiếp,,True,DEBIT,,CP NVL trực tiếp
+622,Chi phí nhân công trực tiếp,,True,DEBIT,,CP nhân công
+623,Chi phí sản xuất chung,,True,DEBIT,,CP SXC
+627,Chi phí quản lý doanh nghiệp,,True,DEBIT,,CP QLDN
+631,Giá thành sản phẩm dở dang,,True,DEBIT,,Sản phẩm dở dang
+632,Giá vốn hàng bán,,True,DEBIT,"['HH']",Giá vốn hàng bán
+635,Chi phí tài chính,,True,DEBIT,,Chi phí tài chính
+6351,Lãi tiền vay,635,True,DEBIT,,Lãi vay
+6352,Lỗ chênh lệch tỷ giá,635,True,DEBIT,,Chênh lệch tỷ giá (Đ31)
+6353,Lỗ bán chứng khoán,635,True,DEBIT,,Chứng khoán
+641,Chi phí bán hàng,,True,DEBIT,,Chi phí bán hàng
+6411,Chi phí nhân viên bán hàng,641,True,DEBIT,,NVBH
+6412,Chi phí vật liệu, bao bì,641,True,DEBIT,,Vật liệu
+6413,Chi phí công cụ dụng cụ,641,True,DEBIT,,Công cụ
+6414,Chi phí khấu hao TSCĐ BH,641,True,DEBIT,,Khấu hao
+6415,Chi phí bảo hiểm,641,True,DEBIT,,Bảo hiểm
+6417,Chi phí vận chuyển,641,True,DEBIT,,Vận chuyển
+6418,Chi phí TMĐT,641,True,DEBIT,,Phí sàn TMĐT (Shopee, Lazada)
+642,Chi phí quản lý doanh nghiệp,,True,DEBIT,,Chi phí QLDN
+6421,Chi phí nhân viên QLDN,642,True,DEBIT,,NV QLDN
+6422,Chi phí vật liệu QLDN,642,True,DEBIT,,Vật liệu QLDN
+6423,Chi phí CCDC QLDN,642,True,DEBIT,,CCDC QLDN
+6424,Chi phí khấu hao TSCĐ QLDN,642,True,DEBIT,,Khấu hao
+6425,Thuế, phí, lệ phí,642,True,DEBIT,,Thuế ngoài GTGT
+6427,Chi phí dịch vụ mua ngoài,642,True,DEBIT,,Dịch vụ mua ngoài
+6428,Chi phí khác bằng tiền,642,True,DEBIT,,Chi phí khác
+711,Thu nhập khác,,True,CREDIT,,Thu nhập khác
+7111,Thu nhập thanh lý TSCĐ,711,True,CREDIT,,Thanh lý
+7112,Thu nhập hoạt động đầu tư,711,True,CREDIT,,Đầu tư
+7113,Thu nhập từ tiền phạt,711,True,CREDIT,,Phạt hợp đồng
+7114,Lãi chênh lệch tỷ giá,711,True,CREDIT,,Chênh lệch tỷ giá (Đ31)
+811,Chi phí khác,,True,DEBIT,,Chi phí khác
+8111,Chi phí thanh lý TSCĐ,811,True,DEBIT,,Thanh lý
+8112,Chi phí hoạt động đầu tư,811,True,DEBIT,,Đầu tư
+8113,Chi phí tiền phạt,811,True,DEBIT,,Phạt hợp đồng
+8114,Lỗ chênh lệch tỷ giá,811,True,DEBIT,,Chênh lệch tỷ giá (Đ31)
+821,Chi phí thuế TNDN hoãn lại,,True,DEBIT,,Thuế hoãn lại
+8211,Chi phí thuế TNDN hoãn lại,821,True,DEBIT,,Thuế hoãn lại
+911,Xác định lợi nhuận,,True,DEBIT,,Kết chuyển lãi/lỗ

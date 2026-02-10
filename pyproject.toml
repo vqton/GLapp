@@ -1,0 +1,47 @@
+[project]
+name = "vn-accounting-erp"
+version = "0.1.0"
+description = "ERP Kế toán theo Thông tư 99/2025/TT-BTC"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.109.0",
+    "sqlmodel>=0.0.19",
+    "pydantic>=2.5.0",
+    "uvicorn>=0.27.0",
+    "alembic>=1.13.0",
+    "python-multipart>=0.0.6",
+    "cryptography>=42.0.0",
+    "python-dateutil>=2.8.2",
+    "pyyaml>=6.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "hypothesis>=6.100.0",
+    "httpx>=0.26.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.3.0",
+    "mypy>=1.8.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+select = ["E", "F", "I", "UP", "W"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true

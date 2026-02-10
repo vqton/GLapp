@@ -1,0 +1,68 @@
+voucher_number,voucher_type,voucher_date,description,line_number,account_code,debit_amount,credit_amount,customer_code,supplier_code,product_code,quantity,unit_price,tax_rate,tax_code,notes
+PC-2026-0001,PC,02/01/2026,Mua hàng điện thoại Samsung từ Công ty TNHH Thế Giới Di Động,1,6211,55000000,,SP001,1,,10,,,,Mua hàng điện thoại
+PC-2026-0001,PC,02/01/2026,Mua hàng điện thoại Samsung từ Công ty TNHH Thế Giới Di Động,2,1331,5500000,,,SP001,,10,VAT10,,
+PC-2026-0001,PC,02/01/2026,Mua hàng điện thoại Samsung từ Công ty TNHH Thế Giới Di Động,3,3311,,60500000,SP001,,,,,,Phải trả NCC
+PC-2026-0002,PC,03/01/2026,Mua laptop Dell từ Công ty Công Nghệ Số,1,6211,85000000,,SP002,1,,10,,,,Mua laptop
+PC-2026-0002,PC,03/01/2026,Mua laptop Dell từ Công ty Công Nghệ Số,2,1331,8500000,,,SP002,,10,VAT10,,
+PC-2026-0002,PC,03/01/2026,Mua laptop Dell từ Công ty Công Nghệ Số,3,3311,,93500000,SP002,,,,,,Phải trả NCC
+PC-2026-0003,PC,05/01/2026,Mua văn phòng phẩm,1,6422,2500000,,SP003,1,,0,,,,
+PC-2026-0003,PC,05/01/2026,Mua văn phòng phẩm,2,1111,,2500000,,,,,,Tiền mặt
+PC-2026-0004,PC,05/01/2026,Mua hàng hóa tồn kho,1,1561,120000000,,SP004,100,1200000,10,VAT10,,Hàng hóa
+PC-2026-0004,PC,05/01/2026,Mua hàng hóa tồn kho,2,1331,12000000,,,SP004,,10,VAT10,,
+PC-2026-0004,PC,05/01/2026,Mua hàng hóa tồn kho,3,3311,,132000000,SP004,,,,,,Phải trả NCC
+PT-2026-0001,PT,02/01/2026,Bán hàng online Shopee - Đơn hàng #SH001,1,1121,33000000,,KH001,,0,,,Thu tiền SH001
+PT-2026-0001,PT,02/01/2026,Bán hàng online Shopee - Đơn hàng #SH001,2,5111,,30000000,KH001,,10,VAT10,,Doanh thu bán hàng
+PT-2026-0001,PT,02/01/2026,Bán hàng online Shopee - Đơn hàng #SH001,3,3331,,3000000,KH001,,10,VAT10,,Thuế GTGT
+PT-2026-0002,PT,03/01/2026,Bán hàng tại quầy - Khách hàng Nguyễn Văn A,1,1111,55000000,,KH002,,0,,,,
+PT-2026-0002,PT,03/01/2026,Bán hàng tại quầy - Khách hàng Nguyễn Văn A,2,5111,,50000000,KH002,,10,VAT10,,Doanh thu
+PT-2026-0002,PT,03/01/2026,Bán hàng tại quầy - Khách hàng Nguyễn Văn A,3,3331,,5000000,KH002,,10,VAT10,,Thuế GTGT
+PT-2026-0003,PT,03/01/2026,Bán hàng online Lazada - Đơn hàng #LZ001,1,1121,44000000,,KH003,,0,,,Thu tiền LZ001
+PT-2026-0003,PT,03/01/2026,Bán hàng online Lazada - Đơn hàng #LZ001,2,5111,,40000000,KH003,,10,VAT10,,Doanh thu
+PT-2026-0003,PT,03/01/2026,Bán hàng online Lazada - Đơn hàng #LZ001,3,3331,,4000000,KH003,,10,VAT10,,Thuế GTGT
+PT-2026-0004,PT,04/01/2026,Bán dịch vụ tư vấn cho Công ty ABC,1,1311,110000000,,KH004,,0,,,,
+PT-2026-0004,PT,04/01/2026,Bán dịch vụ tư vấn cho Công ty ABC,2,5112,,100000000,KH004,,10,VAT10,,Doanh thu dịch vụ
+PT-2026-0004,PT,04/01/2026,Bán dịch vụ tư vấn cho Công ty ABC,3,3331,,10000000,KH004,,10,VAT10,,Thuế GTGT
+PT-2026-0005,PT,05/01/2026,Bán hàng online Tiki - Đơn hàng #TK001,1,1121,22000000,,KH005,,0,,,Thu tiền TK001
+PT-2026-0005,PT,05/01/2026,Bán hàng online Tiki - Đơn hàng #TK001,2,5111,,20000000,KH005,,10,VAT10,,Doanh thu
+PT-2026-0005,PT,05/01/2026,Bán hàng online Tiki - Đơn hàng #TK001,3,3331,,2000000,KH005,,10,VAT10,,Thuế GTGT
+PC-2026-0005,PC,06/01/2026,Trả tiền NCC Công ty TNHH Thế Giới Di Động,1,3311,60500000,,SP001,,0,,,,
+PC-2026-0005,PC,06/01/2026,Trả tiền NCC Công ty TNHH Thế Giới Di Động,2,1121,,60500000,,,,,,Chuyển khoản
+PC-2026-0006,PC,06/01/2026,Trả lương tháng 12/2025,1,6411,75000000,,NV001,1,,0,,,Lương NV bán hàng
+PC-2026-0006,PC,06/01/2026,Trả lương tháng 12/2025,2,6421,35000000,,NV002,1,,0,,,Lương NV quản lý
+PC-2026-0006,PC,06/01/2026,Trả lương tháng 12/2025,3,3341,,110000000,,,,,,Phải trả lương
+PC-2026-0007,PC,07/01/2026,Thu tiền KH Công ty ABC,1,1121,110000000,,KH004,,0,,,,
+PC-2026-0007,PC,07/01/2026,Thu tiền KH Công ty ABC,2,1311,,110000000,KH004,,,,,,Thu nợ
+PC-2026-0008,PC,08/01/2026,Nộp thuế GTGT tháng 12/2025,1,3331,125000000,,,,-1,10,,,,
+PC-2026-0008,PC,08/01/2026,Nộp thuế GTGT tháng 12/2025,2,1121,,125000000,,,,,,Nộp thuế
+PC-2026-0009,PC,10/01/2026,Nhận lãi tiền gửi ngân hàng,1,1121,25000000,,,,0,,,,
+PC-2026-0009,PC,10/01/2026,Nhận lãi tiền gửi ngân hàng,2,5151,,25000000,,,,,,Lãi tiền gửi
+PC-2026-0010,PC,10/01/2026,Trích BHXL, BHYT, KPCĐ theo lương,1,6411,6800000,,,,0,,,BHXH 8%
+PC-2026-0010,PC,10/01/2026,Trích BHXL, BHYT, KPCĐ theo lương,2,6421,3400000,,,,0,,,BHXH 8%
+PC-2026-0010,PC,10/01/2026,Trích BHXL, BHYT, KPCĐ theo lương,3,3383,,3300000,,,,,,BHYT trích
+PC-2026-0010,PC,10/01/2026,Trích BHXL, BHYT, KPCĐ theo lương,4,3382,,5100000,,,,,,BHXH trích
+PC-2026-0010,PC,10/01/2026,Trích BHXL, BHYT, KPCĐ theo lương,5,3384,,1800000,,,,,,KPCĐ trích
+PC-2026-0011,PC,15/01/2026,Bán hàng giá trị gia tăng cao - iPhone 15 Pro Max,1,1111,220000000,,KH006,,0,,,,
+PC-2026-0011,PC,15/01/2026,Bán hàng giá trị gia tăng cao - iPhone 15 Pro Max,2,5111,,200000000,KH006,,10,VAT10,,Doanh thu
+PC-2026-0011,PC,15/01/2026,Bán hàng giá trị gia tăng cao - iPhone 15 Pro Max,3,3331,,20000000,KH006,,10,VAT10,,Thuế GTGT
+PC-2026-0012,PC,15/01/2026,Giá vốn hàng bán iPhone 15 Pro Max,1,632,150000000,,SP005,1,150000000,0,,,Giá vốn
+PC-2026-0012,PC,15/01/2026,Giá vốn hàng bán iPhone 15 Pro Max,2,1561,,150000000,SP005,1,1500000,0,,,
+PC-2026-0013,PC,18/01/2026,Chiết khấu thương mại cho KH001,1,5211,5000000,,KH001,,0,,,,
+PC-2026-0013,PC,18/01/2026,Chiết khấu thương mại cho KH001,2,1311,,5000000,KH001,,,,,,Giảm nợ
+PC-2026-0014,PC,20/01/2026,Trả hàng bán cho KH003 - Lỗi sản phẩm,1,5311,8000000,,KH003,,0,,,,
+PC-2026-0014,PC,20/01/2026,Trả hàng bán cho KH003 - Lỗi sản phẩm,2,3331,,800000,KH003,,10,VAT10,,Giảm thuế
+PC-2026-0014,PC,20/01/2026,Trả hàng bán cho KH003 - Lỗi sản phẩm,3,1311,,8800000,KH003,,,,,,Giảm nợ
+PC-2026-0015,PC,22/01/2026,Nhận hoa hồng đại lý từ Shopee,1,1121,15000000,,,,-1,0,,,,
+PC-2026-0015,PC,22/01/2026,Nhận hoa hồng đại lý từ Shopee,2,7111,,15000000,,,,,,Hoa hồng
+PC-2026-0016,PC,25/01/2026,Kết chuyển lãi cuối tháng,1,5111,280000000,,,,-1,0,,,,
+PC-2026-0016,PC,25/01/2026,Kết chuyển lãi cuối tháng,2,9111,,280000000,,,,,,Kết chuyển DT
+PC-2026-0016,PC,25/01/2026,Kết chuyển lãi cuối tháng,3,9111,45000000,,,,0,,,Kết chuyển CP
+PC-2026-0016,PC,25/01/2026,Kết chuyển lãi cuối tháng,4,632,,45000000,,,,,,Kết chuyển GV
+PC-2026-0017,PC,28/01/2026,Tạm ứng lương cho nhân viên,1,141,15000000,,NV003,1,,0,,,,
+PC-2026-0017,PC,28/01/2026,Tạm ứng lương cho nhân viên,2,1111,,15000000,,,,,,Tiền mặt
+PC-2026-0018,PC,30/01/2026,Trả tiền điện nước văn phòng,1,6422,8500000,,,,0,,,,
+PC-2026-0018,PC,30/01/2026,Trả tiền điện nước văn phòng,2,1111,,8500000,,,,,,Tiền mặt
+PC-2026-0019,PC,31/01/2026,Lập dự phòng nợ phải thu khó đòi,1,6412,35000000,,KH007,1,,0,,,Theo TT48
+PC-2026-0019,PC,31/01/2026,Lập dự phòng nợ phải thu khó đòi,2,2293,,35000000,KH007,,,,,,Dự phòng
+PC-2026-0020,PC,31/01/2026,Khấu hao TSCĐ tháng 1/2026,1,6414,42000000,,,,0,,,,
+PC-2026-0020,PC,31/01/2026,Khấu hao TSCĐ tháng 1/2026,2,6424,18000000,,,,0,,,,
+PC-2026-0020,PC,31/01/2026,Khấu hao TSCĐ tháng 1/2026,3,2141,,60000000,,,,,,Hao mòn

@@ -1,0 +1,19 @@
+account_code,account_name,debit_balance,credit_balance,period_type,period_value,year,notes
+1111,Tiền Việt Nam,1500000000,,MONTH,1,2026,Số dư đầu năm
+1121,Tiền gửi VND,2500000000,,MONTH,1,2026,TK ngân hàng
+1311,Phải thu bán hàng,850000000,,MONTH,1,2026,Tổng phải thu KH
+1331,Thuế GTGT được khấu trừ,45000000,,MONTH,1,2026,Thuế GTGT đầu vào
+1561,Hàng hóa kho,2500000000,,MONTH,1,2026,Tồn kho đầu năm theo TT200
+2111,TSCĐ hữu hình - Nguyên giá,5000000000,,MONTH,1,2026,Máy móc thiết bị
+2141,Khấu hao TSCĐ hữu hình,,1500000000,MONTH,1,2026,Khấu hao lũy kế
+2291,Dự phòng cụ thể nợ phải thu,,75000000,MONTH,1,2026,Theo TT48/2019
+3111,Vay ngắn hạn,,500000000,MONTH,1,2026,Vay ngân hàng
+3311,Phải trả mua hàng,,380000000,MONTH,1,2026,Phải trả NCC
+3331,Thuế GTGT phải nộp,,125000000,MONTH,1,2026,Thuế GTGT đầu ra
+3334,Thuế TNDN,,200000000,MONTH,1,2026,Thuế TNDN tạm tính
+3341,Lương phải trả,,85000000,MONTH,1,2026,Lương tháng 12/2025
+3382,BHXH trích,,45000000,MONTH,1,2026,BHXH, BHYT, KPCĐ
+3383,BHYT trích,,19500000,MONTH,1,2026,BHYT trích
+3384,KPCĐ trích,,7500000,MONTH,1,2026,Kinh phí công đoàn
+4111,Vốn góp của chủ sở hữu,,3000000000,MONTH,1,2026,Vốn điều lệ
+4211,Lợi nhuận sau thuế,,850000000,MONTH,1,2026,LNST năm trước

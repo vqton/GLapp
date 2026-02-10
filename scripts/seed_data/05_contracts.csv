@@ -1,0 +1,6 @@
+contract_code,contract_type,customer_code,customer_name,start_date,end_date,total_value,vat_rate,revenue_recognition,progress_payment,completion_criteria,service_description,account_code
+HD001,CONSULTING,KH003,Công ty CP Công nghệ Bảo Việt Tech,01/09/2025,31/12/2025,500000000,10,PERCENTAGE,MONTHLY,biên bản nghiệm thu,Triển khai hệ thống ERP,5112
+HD002,SOFTWARE_LICENSE,KH006,Công ty CP Giải pháp Phần mềm Số,15/07/2025,15/07/2026,1200000000,10,PERCENTAGE,MONTHLY,công việc hoàn thành,Bản quyền phần mềm năm,5112
+HD003,MAINTENANCE,KH001,Công ty TNHH TMĐT ShopViệt,01/01/2025,31/12/2025,360000000,10,PERCENTAGE,QUARTERLY,báo cáo định kỳ,Bảo trì hệ thống,5112
+HD004,CONSULTING,KH008,Công ty TNHH TM XNK Hoàng Gia,10/03/2025,10/09/2025,180000000,10,COMPLETED,ONE_TIME,nghiệm thu cuối cùng,Tư vấn xuất nhập khẩu,5112
+HD005,PROJECT,KH013,Shopee Mall - Đối tác tiêu biểu,01/06/2025,31/05/2026,2500000000,10,PERCENTAGE,MONTHLY,đánh giá tiến độ,Dịch vụ logistics tích hợp,5113
