@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard - Accounting ERP</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        body {
+            background-color: #f5f7fa;
+        }
+        .sidebar {
+            background: white;
+            border-right: 1px solid #e3e6f0;
+            min-height: 100vh;
+        }
+        .sidebar-brand {
+            padding: 20px;
+            border-bottom: 1px solid #e3e6f0;
+        }
+        .sidebar a {
+            color: #333;
+            padding: 12px 20px;
+            display: block;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .sidebar a:hover {
+            background-color: #f5f7fa;
+            padding-left: 30px;
+        }
+        .sidebar a.active {
+            background-color: #667eea;
+            color: white;
+            border-left: 4px solid #764ba2;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .stat-card {
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+        .stat-card h5 {
+            color: #666;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .stat-card .stat-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: #333;
+        }
+        .stat-card .stat-icon {
+            font-size: 40px;
+            opacity: 0.1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3 col-lg-2 sidebar">
+                <div class="sidebar-brand">
+                    <h4><i class="bi bi-briefcase"></i> Accounting ERP</h4>
+                </div>
+                <nav>
+                    <a href="/dashboard" class="active">
+                        <i class="bi bi-speedometer2"></i> Dashboard
+                    </a>
+                    <a href="/chung-tu">
+                        <i class="bi bi-file-earmark-text"></i> Chứng Từ
+                    </a>
+                    <a href="/accounts">
+                        <i class="bi bi-coin"></i> Tài Khoản
+                    </a>
+                    <a href="/reports">
+                        <i class="bi bi-bar-chart"></i> Báo Cáo
+                    </a>
+                    <a href="/settings">
+                        <i class="bi bi-gear"></i> Cài Đặt
+                    </a>
+                </nav>
+            </div>
+            
+            <!-- Main Content -->
+            <div class="col-md-9 col-lg-10">
+                <div class="p-4">
+                    <!-- Header -->
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h2>Dashboard</h2>
+                        <div>
+                            <span class="text-muted">Admin</span>
+                            <a href="#" class="btn btn-sm btn-outline-secondary ms-2">Logout</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Stats Row -->
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="card stat-card">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h5>Chứng Từ Hôm Nay</h5>
+                                        <div class="stat-value">12</div>
+                                    </div>
+                                    <div class="stat-icon text-primary">
+                                        <i class="bi bi-file-earmark-text"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="card stat-card">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h5>Chờ Duyệt</h5>
+                                        <div class="stat-value">5</div>
+                                    </div>
+                                    <div class="stat-icon text-warning">
+                                        <i class="bi bi-clock-history"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="card stat-card">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h5>Đã Duyệt</h5>
+                                        <div class="stat-value">48</div>
+                                    </div>
+                                    <div class="stat-icon text-success">
+                                        <i class="bi bi-check-circle"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="card stat-card">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h5>Tổng Tiền</h5>
+                                        <div class="stat-value">₫5.2M</div>
+                                    </div>
+                                    <div class="stat-icon text-danger">
+                                        <i class="bi bi-currency-dollar"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Charts Row -->
+                    <div class="row mt-4">
+                        <div class="col-lg-6">
+                            <div class="card p-4">
+                                <h5 class="mb-3">Chứng Từ Theo Loại</h5>
+                                <canvas id="typeChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card p-4">
+                                <h5 class="mb-3">Trạng Thái Chứng Từ</h5>
+                                <canvas id="statusChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Chart 1: Voucher Types
+        const typeCtx = document.getElementById('typeChart').getContext('2d');
+        new Chart(typeCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Hóa Đơn', 'Phiếu Chi', 'Phiếu Thu', 'Biên Bản'],
+                datasets: [{
+                    data: [30, 25, 20, 25],
+                    backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#4facfe']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true
+            }
+        });
+        
+        // Chart 2: Status
+        const statusCtx = document.getElementById('statusChart').getContext('2d');
+        new Chart(statusCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Draft', 'Approved', 'Rejected'],
+                datasets: [{
+                    label: 'Số Lượng',
+                    data: [15, 48, 2],
+                    backgroundColor: ['#ffc107', '#28a745', '#dc3545']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

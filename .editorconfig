@@ -1,0 +1,34 @@
+root = true
+
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+
+# Java files
+[*.java]
+indent_size = 4
+max_line_length = 120
+
+# XML files
+[*.{xml,pom}]
+indent_size = 2
+
+# YAML files
+[*.{yml,yaml}]
+indent_size = 2
+
+# HTML files
+[*.{html,htm}]
+indent_size = 2
+
+# CSS/JavaScript files
+[*.{css,js}]
+indent_size = 2
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false

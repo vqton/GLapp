@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accounting ERP - Trang Chủ</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .welcome-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            padding: 60px 40px;
+            text-align: center;
+            max-width: 600px;
+        }
+        .welcome-container h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        .welcome-container p {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .btn-group-custom {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn-custom {
+            min-width: 150px;
+            padding: 12px 24px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <h1><i class="bi bi-briefcase"></i> Accounting ERP</h1>
+        <p>Hệ thống quản lý kế toán doanh nghiệp toàn diện</p>
+        <p>v1.0.0 - Spring Boot 3.3+ | OpenJDK 21 | PostgreSQL</p>
+        
+        <div class="btn-group-custom">
+            <a href="/dashboard" class="btn btn-primary btn-custom">
+                <i class="bi bi-speedometer2"></i> Dashboard
+            </a>
+            <a href="/swagger-ui.html" class="btn btn-outline-secondary btn-custom">
+                <i class="bi bi-api"></i> API Docs
+            </a>
+        </div>
+        
+        <hr class="my-4">
+        
+        <div class="alert alert-info">
+            <h6><i class="bi bi-info-circle"></i> Thông Tin Hệ Thống</h6>
+            <small>
+                <p><strong>Kiến Trúc:</strong> Domain-Driven Design (DDD)</p>
+                <p><strong>Cơ Sở Dữ Liệu:</strong> PostgreSQL 16+</p>
+                <p><strong>Xác Thực:</strong> Spring Security + JWT</p>
+                <p><strong>Template Engine:</strong> Thymeleaf 3.1+</p>
+                <p><strong>Tuân Thủ:</strong> Thông Tư 99/2025/TT-BTC</p>
+            </small>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+spring:
+  application:
+    name: accounting-erp
+  
+  # JPA/Hibernate Configuration
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        use_sql_comments: true
+    open-in-view: false
+  
+  # DataSource - PostgreSQL
+  datasource:
+    url: jdbc:postgresql://localhost:5432/accounting_erp
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      connection-timeout: 30000
+  
+  # Thymeleaf Configuration
+  thymeleaf:
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    cache: false
+  
+  # Security
+  security:
+    user:
+      name: admin
+      password: password
+
+# Server Configuration
+server:
+  port: 8080
+  servlet:
+    context-path: /
+  compression:
+    enabled: true
+    min-response-size: 1024
+
+# Logging
+logging:
+  level:
+    root: INFO
+    com.tonvq.accountingerp: DEBUG
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+
+# Application Custom Properties
+app:
+  jwt:
+    secret: your-secret-key-change-this-in-production-at-least-32-characters
+    expiration: 86400000 # 24 hours in milliseconds
+  security:
+    cors:
+      allowed-origins: http://localhost:3000,http://localhost:4200
+      allowed-methods: GET,POST,PUT,DELETE,OPTIONS
+      allowed-headers: "*"
+      max-age: 3600
+
+# Swagger/OpenAPI Documentation
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
